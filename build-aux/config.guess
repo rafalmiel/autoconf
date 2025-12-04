@@ -1425,6 +1425,9 @@ EOF
     *:Haiku:*:*)	# Haiku modern gcc (not bound by BeOS compat)
 	GUESS=$UNAME_MACHINE-unknown-haiku
 	;;
+    *:Cykusz:*:*)
+	GUESS=$UNAME_MACHINE-unknown-cykusz
+	;;
     SX-4:SUPER-UX:*:*)
 	GUESS=sx4-nec-superux$UNAME_RELEASE
 	;;
